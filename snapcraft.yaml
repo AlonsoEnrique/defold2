@@ -13,5 +13,5 @@ parts:
     source: https://www.defold.com/download/editor2/Defold-x86_64-linux.zip
 
 apps:
-  geekbench4:
-    command: defold2
+  defold2:
+    command: Defold/Defold
