@@ -1,0 +1,17 @@
+name: defold2
+version: 2
+summary: 2D Game Engine
+description: |
+  Defold is a game engine for independent developers and teams, 
+  designed for fast, efficient and collaborative game creation.
+
+confinement: devmode
+
+parts:
+  defold2:
+    plugin: dump
+    source: https://www.defold.com/download/editor2/Defold-x86_64-linux.zip
+
+apps:
+  geekbench4:
+    command: defold2
